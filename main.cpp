@@ -8,7 +8,7 @@ int main() {
   if(curl) {
     CURLcode res;
     curl_easy_setopt(curl, CURLOPT_NOBODY, true);
-    curl_easy_setopt(curl, CURLOPT_URL, "https://google.ru");
+    curl_easy_setopt(curl, CURLOPT_URL, "https://vk.com");
     res = curl_easy_perform(curl);
     if(res == CURLE_OK) {
       long response_code;
