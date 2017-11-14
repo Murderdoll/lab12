@@ -18,3 +18,4 @@ int main() {
     curl_easy_cleanup(curl);
   }
 }
+
